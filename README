@@ -1,11 +1,2 @@
 This is an archive of tomlehrersongs.com
 See LICENSE for the author's disclaimer
-
-The torrent was created as follows:
-
-$ git archive -o tomlehrersongs.tar 212ad288a9aad8b37f0928cb41ddcbed19aeea97
-$ transmission-create -c https://github.com/jcalvinowens/tomlehrer-archive \
-  $(xargs -I {} echo -n "-t {} " < trackers_best.txt) tomlehrersongs.tar
-
-SHA1 (tomlehrersongs.tar) = 55bccc326c9c1bd211e81c2551021ec1222b9be7
-MD5 (tomlehrersongs.tar) = c73f539f6132a7a1cce59d12062d1c3d
